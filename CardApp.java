@@ -1,0 +1,38 @@
+package com.orilore.lxh.test;
+
+public class CardApp {
+
+	private static final String A001 = null;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		CashCard[] cards = {
+				
+			new CashCard("A001",500,0),
+			
+			new CashCard("A002",300,0),
+			
+			new CashCard("A003",1000,1),
+			
+			new CashCard("A004",2000,2),
+			
+			new CashCard("A005",3000,3)
+				
+				
+				
+				
+		};
+		
+		for(CashCard card : cards){
+			
+			System.out.printf("(%s,%d,%d)%n",card.number,card.balance,card.bonus);
+			
+			
+		}
+		
+
+	}
+
+}
